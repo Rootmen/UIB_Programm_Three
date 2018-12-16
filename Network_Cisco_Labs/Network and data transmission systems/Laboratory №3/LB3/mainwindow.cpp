@@ -157,6 +157,7 @@ void MainWindow:: GetHDB3(int * Mass)
                      else {
                          _HDB3[g-3]=1;
                          _HDB3[g]=1;}
+                     chet=!chet;
                  }
                  col=0;
              }
