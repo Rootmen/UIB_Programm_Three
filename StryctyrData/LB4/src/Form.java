@@ -31,7 +31,7 @@ public class Form extends JFrame {
         ScrollPanel.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
-        setSize(1000,1000);
+        setSize(700,500);
         setVisible(true);
     }
 

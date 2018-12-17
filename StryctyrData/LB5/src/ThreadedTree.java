@@ -19,12 +19,13 @@ public class ThreadedTree {
         boolean leftThread, rightThread;
     }
 
-    Node root;
+    public Node root;
 
     public ThreadedTree() {
         root = new Node();
         root.right = root.left = root;
         root.leftThread = true;
+        root.rightThread = true;
         root.key = Integer.MAX_VALUE;
     }
 
